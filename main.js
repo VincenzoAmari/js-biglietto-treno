@@ -19,11 +19,11 @@ function calcoloprezzo() {
 let eta = parseInt(prompt("quanti anni hai?"));
 let km = perseFloat(prompt("quanti chilometri vuoi percorrere?"));
 let prezzoBase = km * 0.21;
-let prezzofinale= prezzobase;
+let prezzoFinale= prezzoBase;
 }
 
 if (eta < 18) {
-prezzofinale = prezzo base * 0.80;
+prezzoFinale = prezzoBase * 0.80;
 } else if (eta > 65){
-    prezzofinale = prezzoBase * 0.60;
+    prezzoFinale = prezzoBase * 0.60;
 }
