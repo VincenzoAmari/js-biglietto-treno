@@ -5,6 +5,9 @@
 //- va applicato uno sconto del 40% per gli over 65.
 //- L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo). Questo richiederà un minimo di ricerca.
 
+
+
+
 // ho fatto il primo push rendendo pubblica su github ma avevo già inizializzato le variabili
 
 //inizializiamo le variabili
@@ -16,9 +19,9 @@ function calcoloPrezzo() {
 
      
 
-let eta = parseInt(prompt("quanti anni hai?"));
-let km = perseFloat(prompt("quanti chilometri vuoi percorrere?"));
-let prezzoBase = km * 0.21;
+const eta = parseInt(prompt("quanti anni hai?"));
+const km = parseFloat(prompt("quanti chilometri vuoi percorrere?"));
+const prezzoBase = km * 0.21;
 let prezzoFinale= prezzoBase;
 
 
