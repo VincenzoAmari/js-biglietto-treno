@@ -21,3 +21,9 @@ let km = perseFloat(prompt("quanti chilometri vuoi percorrere?"));
 let prezzoBase = km * 0.21;
 let prezzofinale= prezzobase;
 }
+
+if (eta < 18) {
+prezzofinale = prezzo base * 0.80;
+} else if (eta > 65){
+    prezzofinale = prezzoBase * 0.60;
+}
