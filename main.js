@@ -33,4 +33,4 @@ alert("per te il costo del biglietto è: €" + prezzoFinale.toFixed(2));
 }
 
 
-calcoloPrezzo;
+calcoloPrezzo();
