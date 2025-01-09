@@ -12,7 +12,7 @@
 
 
 
-function calcoloprezzo() {
+function calcoloPrezzo() {
 
      
 
@@ -28,4 +28,9 @@ prezzoFinale = prezzoBase * 0.80;
     prezzoFinale = prezzoBase * 0.60;
 }
 
+alert("per te il costo del biglietto è: €" + prezzoFinale.toFixed(2));
+
 }
+
+
+calcoloPrezzo;
