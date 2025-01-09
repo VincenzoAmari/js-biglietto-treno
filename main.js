@@ -20,10 +20,12 @@ let eta = parseInt(prompt("quanti anni hai?"));
 let km = perseFloat(prompt("quanti chilometri vuoi percorrere?"));
 let prezzoBase = km * 0.21;
 let prezzoFinale= prezzoBase;
-}
+
 
 if (eta < 18) {
 prezzoFinale = prezzoBase * 0.80;
 } else if (eta > 65){
     prezzoFinale = prezzoBase * 0.60;
+}
+
 }
